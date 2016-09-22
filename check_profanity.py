@@ -1,5 +1,7 @@
 def read_text():
-    pass
+    quotes = open("movie_quotes.txt")
+    file_contents = quotes.read()
+    print file_contents
 
 
 read_text()
