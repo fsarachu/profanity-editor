@@ -4,7 +4,6 @@ import urllib
 def read_text():
     quotes = open("movie_quotes.txt")
     file_contents = quotes.read()
-    print file_contents
     quotes.close()
     return file_contents
 
